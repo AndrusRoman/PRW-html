@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulário Dados</h2>
+    <form action="exercicio2.php" method="post">
+        <label for="texto">Texto:</label>
+        <input type="text" id="texto" name="texto"><br><br>
+        
+        <label for="comentarios">Comentários:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="10" cols="50"></textarea><br><br>
+        
+        <input type="checkbox" id="aceitar" name="aceitar" value="sim">
+        <label for="aceitar">Aceitar Termos</label><br><br>
+        
+        <label>Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label><br><br>
+        
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="brasil">Brasil</option>
+            <option value="portugal">Portugal</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
